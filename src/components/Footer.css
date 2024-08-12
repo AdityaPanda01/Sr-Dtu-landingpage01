@@ -1,0 +1,26 @@
+.footer{
+    background-image: url(
+        'https://wallpaperaccess.com/full/3094315.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 90vh; /* Full viewport height */
+    width: 100%; /* Full width of the parent container---https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2019/10/14084818/abstract-robot-thinking.jpg */ 
+   
+}
+
+.main{
+    width:75%;
+}
+.contact{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    padding-top: 100px;
+}
+
+.contact img{
+    width:200px;
+
+}

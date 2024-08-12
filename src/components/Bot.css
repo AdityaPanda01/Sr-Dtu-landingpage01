@@ -1,0 +1,36 @@
+.Bot-box{
+        background-image: url(
+            'https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2019/10/14084818/abstract-robot-thinking.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 90vh; /* Full viewport height */
+        width: 110%; /* Full width of the parent container---https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2019/10/14084818/abstract-robot-thinking.jpg */ 
+        padding-top: 18vh;
+        
+    }
+.Bot-box-content{
+    margin-left: 60vw;
+    font-size: 50px;
+    color:white;
+    animation: fade 3s;
+}
+
+button{
+    width:200px;
+    height: 50px;
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    border-radius: 10%;
+}
+
+
+
+@keyframes fade {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
